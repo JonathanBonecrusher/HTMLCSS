@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="outlines.css">
+    <title>Задание 19</title>
+</head>
+<body>
+    <main>
+        <form action="https://urtt.ru/" method="post">
+            <label for="user">Имя</label>
+            <input type="text" id="user" value="Кексик" name="username">
+    
+            <label for="adress">Адрес доставки</label>
+            <textarea id="adress" cols="30" rows="2" name="adressDelivery">ул. Хвостенко, д. 1</textarea>
+
+            <div class="half-width">
+            <label for="date">Дата доставки</label>
+            <input type="date" id="date" value="2014-12-12" name="dateDelivery">
+
+            <label for="dish">Блюдо</label>
+            <input type="text" list="meal" id="dish" value="Rурочка" name="menuMeal">
+            <datalist id="meal">
+                <option value="Мясо"></option>
+                <option value="Рыба"></option>
+                <option value="Курочка"></option>
+                <option value="Индейка"></option>
+                <option value="Мыши"></option>
+                <option value="Молоко"></option>
+            </datalist>
+            </div>
+
+            <div class="half-width">
+                <label for="time">Время доставки</label>
+                <input type="time" id="time" value="12:00" name="timeDelivery">
+
+                <label for="count">Количество</label>
+                <input type="number" min="5" max="50" step="5" id="count" name="countDelivery">
+            </div>
+
+            <div class="buttons">
+                <input type="submit" value="Заказать">
+            </div>
+        </form>
+    </main>
+    <footer>Лисицин Степан и Биринцев Глеб По-332</footer>
+</body>
+</html>

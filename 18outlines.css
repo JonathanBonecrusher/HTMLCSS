@@ -1,0 +1,48 @@
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #CCCCCC;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    font-family: "Roboto", sans-serif;
+
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 95%;
+    height: 24px;
+    margin-bottom: 10px;
+    padding: 2px 5px;
+
+    border: 1px solid #CCCCCC;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 6px 15px;
+
+    color: #FFFFFF;
+
+    background-color: #2C3E50;
+    border: none;
+}
+
+.buttons {
+    margin-top: 10px;
+
+    text-align: center;
+}
