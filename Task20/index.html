@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 20</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/outlines.css">
+</head>
+<body>
+    <form action="#" method="post" oninput="daysoutput.value=dayscount.value">
+        <fieldset>
+            <legend>Поиск отеля</legend>
+            <label for="search-field-id">Название города</label>
+            <input type="search" name="search" id="search-field-id" value="Осло, Норвегия" autofocus>
+            <div class="one-third-width">
+                <label for="day-field-id">Число</label>
+                <input type="number" min="1" max="31" name="day" id="day-field-id" value="17">
+            </div>
+            <div class="two-third-width">
+                <label for="month-field-id">Месяц</label>
+                <input type="month" name="month" id="month-field-id" value="2014-09">
+            </div>
+            <div class="half-width">
+                <label for="dayscount-field-id">Количество дней</label>
+                1 <input type="range" min="1" max="14" step="1" name="dayscount" id="dayscount-field-id" value="7"> 14
+            </div>
+            <div class="half-width output-area">
+                <output name="daysoutput">7</output>
+            </div>
+           <div class="buttons">
+               <input type="submit" value="Забронировать">
+           </div>
+        </fieldset>
+    </form>
+</body>
+</html>
