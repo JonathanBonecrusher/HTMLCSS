@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 21</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/styleitog.css">
+</head>
+<body>
+    <form action="#" method="post" oninput="rateoutput.value=ratenum.value">
+        <fieldset>
+            <legend>Личне данные</legend>
+            <div class="half-width">
+                <label for="reply-id">ID отзыва</label>
+                <input type="text" name="reply" id="reply-id" pattern="[0-9]{5}" value="12345" required disabled>
+            </div>
+            <div class="half-width output-area">
+                <label for="name-id">Имя путешественника</label>
+                <input type="text" name="name" id="name-id" required>
+            </div>    
+        </fieldset>
+        <fieldset>
+            <legend>Отзыв о поездке</legend>
+            <div class="half-width">
+                <label for="contry-id">Страна визита</label>
+                <input type="text" name="contry" id="contry-id" value="Норвегия" required>
+            </div>
+            <div class="half-width output-area">
+                <label for="city-id">Город</label>
+                <input type="list" id="city-id" list="city-name-id" required>
+                </div>
+                <datalist id="city-name-id">
+                    <option value="Осло"></option>
+                </datalist>
+            </div>
+            <div class="half-width">
+                <label for="rate-id">Оценка поездки</label>
+                0 <input type="range" min="0" max="10" step="1" name="ratenum" id="rate-id" value="10"> 10
+            </div>
+            <div class="half-width output-area">
+                <output name="rateoutput">10</output>
+            </div>
+            Текст отзыва
+            <textarea name="review" id="review-id" rows="5">Это было просто мяу!</textarea>    
+        </fieldset>
+        <fieldset>
+            <legend>Оценка отеля</legend>
+            <div class="half-width">
+                <label for="hotel-name-id">Название отеля</label>
+                <input type="text" name="hotel-name" id="hotel-name-id" placeholder="Название по-английски" required>
+            </div>
+            <div class="half-width output-area">
+                <label for="date-id">Дата въезда</label>
+                <input type="text" name="date" id="date-id" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}" placeholder="В формае дд-мм-гг" required>
+            </div>
+            <div class="one-third-width">
+                <label for="color-id">Окрас</label>
+                <input type="color" name="color" id="color-id" value="ff0000">
+            </div>
+            <div class="half-width output-area">
+                <label for="food-id">Город</label>
+                <input type="list" id="food-id" list="food-rate-id" required>
+                </div>
+                <datalist id="food-rate-id">
+                    <option value="Подушечки оближешь"></option>
+                </datalist>
+            </div>    
+        </fieldset>
+        <div class="buttons">
+            <input type="submit" value="Оценить">
+            <input type="submit" value="Сбросить">
+        </div>
+    </form>
+</body>
+</html>
