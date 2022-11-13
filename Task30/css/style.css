@@ -1,0 +1,60 @@
+/* Общее оформление */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 550px;
+  font-size: 14px;
+  font-family: "Tahoma", "Arial", sans-serif;
+  color: black;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 300px;
+  padding: 10px;
+}
+
+.picture {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  border: 5px solid burlywood;
+
+  text-align: center;
+
+  background-repeat: no-repeat;
+  background-position: 50% 80%;
+  background-size: 64px 64px;
+  background-color: white;
+
+  border-radius: 10px;
+}
+
+/* Оформление картинок */
+.gallery .cat-foodlove {
+  background-image: url("../img/cat-foodlove.svg");
+  background-color: white;
+}
+
+#scary.cat-slippers {
+  background-image: url("../img/cat-slippers.svg");
+}
+
+.gallery div.cat-fat {
+  background-image: url("../img/cat-fat.svg");
+  width: 100px;
+  height: 100px;
+}
+
+.gallery div.cat-cage {
+  background-image: url("../img/cat-cage.svg");
+  color: black !important;
+  border: 5px solid burlywood;
+}
