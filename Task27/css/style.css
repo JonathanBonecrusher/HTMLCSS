@@ -1,0 +1,11 @@
+.easy-tasks {
+  font-size: 18px;
+}
+
+.expensive-tasks li {
+  border: 1px solid #000000;
+}
+
+.unreal-tasks p {
+  color: red;
+}
