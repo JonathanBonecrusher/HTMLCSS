@@ -1,0 +1,10 @@
+li:only-child {
+    height: 90px;
+    width: 60px;
+}
+.group>ul:only-child {
+    padding: 10px;
+    border: 2px;
+    border-style: dashed;
+    border-color: #55bb99;
+}

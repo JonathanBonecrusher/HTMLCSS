@@ -1,0 +1,12 @@
+p::first-line{
+    font-style: italic;
+}
+
+p::first-letter{
+    font-size: 30px;
+    line-height: 30px;
+    float: left;
+    color: red;
+    margin-right: 5px;
+    font-family: "Times New Roman", serif;
+}

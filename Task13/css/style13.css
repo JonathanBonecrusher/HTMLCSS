@@ -1,0 +1,9 @@
+.group>ul:only-of-type {
+    padding: 10px;
+    border: 2px;
+    border-style: dashed;
+    border-color: #55bb99;
+}
+.paper>p:only-of-type {
+    color: #339966;
+}
