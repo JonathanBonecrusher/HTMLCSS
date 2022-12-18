@@ -1,0 +1,9 @@
+.spade.queen{
+    background-color: #ff3300;
+}
+.heart:first-child{
+    background-color: #339933;
+}
+.diamond.ace:last-child{
+    background-color: #0099ff;
+}

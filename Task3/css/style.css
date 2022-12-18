@@ -1,0 +1,9 @@
+li:first-child:not(.spade) {
+    background-color: #ff3300;
+}
+li:not(.ace):not(.diamond):nth-child(4) {
+    background-color: #339933;
+}
+.heart:not(li:first-child):not(.jack):not(.queen) {
+    background-color: #0099ff;
+}
