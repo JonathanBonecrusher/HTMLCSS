@@ -1,0 +1,113 @@
+body {
+    min-width: 450px;
+    margin: 0;
+    padding: 50px 0;
+    background: #134d12 url(../img/fabric.png) 0 0;
+}
+.cards {
+    margin: 0 10px 12px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.cards li {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 45px;
+    height: 60px;
+    margin: 0 3px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 80%);
+}
+.diamond, .heart {
+    color: #e50000;
+}
+li {
+    background-color: #fff;
+    font-family: "Courier",monospace;
+}
+.cards li::before {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    font-family: inherit;
+    top: 2px;
+    left: 2px;
+    width: 14px;
+    height: 14px;
+}
+.cards li::after, .cards li::before {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.ace::before {
+    content: "A";
+}
+.cards li::after {
+    content: "";
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    margin-left: -8px;
+    margin-top: -8px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 14px 14px;
+}
+.heart::after {
+    background-image: url(../img/heart.svg);
+}
+.king::before {
+    content: "K";
+}
+.diamond::after {
+    background-image: url(../img/diamond.svg);
+}
+.queen::before {
+    content: "Q";
+}
+.club::after {
+    background-image: url(../img/club.svg);
+}
+.jack::before {
+    content: "J";
+}
+.spade::after {
+    background-image: url(../img/spade.svg);
+}
+.paper {
+    max-width: 350px;
+    margin: 20px auto;
+    padding: 15px;
+    background: #fff;
+}
+.paper h1 {
+    margin: 0 0 10px;
+    font-size: 16px;
+	font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.paper p {
+    margin: 0;
+    font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 12px;
+}
+.six::before {
+    content: "6";
+}
+.seven::before {
+    content: "7";
+}
+.eight::before {
+    content: "8";
+}
+.nine::before {
+    content: "9";
+}
+.ten::before {
+    content: "10";
+}

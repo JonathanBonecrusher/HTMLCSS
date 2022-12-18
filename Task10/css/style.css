@@ -1,0 +1,9 @@
+.king + li {
+    background-color: #ff3300;
+}
+.heart.jack ~ li.ace {
+    background-color: #339933;
+}
+.club.king ~ li.heart.jack {
+    background-color: #0099ff;
+}

@@ -1,0 +1,76 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  min-width: 550px;
+  min-height: 250px;
+  padding: 10px;
+}
+
+.cards {
+  width: 500px;
+}
+
+.cards li::before {
+  font-family: "Courier", monospace;
+}
+
+selector {
+  margin-left: -15px;
+}
+
+selector {
+  width: 36px;
+  height: 54px;
+}
+
+html,
+body {
+margin: 0;
+padding: 0;
+font-family: "Arial", sans-serif;
+}
+
+body {
+min-width: 550px;
+min-height: 250px;
+padding: 10px;
+}
+
+.cards {
+width: 500px;
+}
+
+.cards li::before {
+font-family: "Courier", monospace;
+}
+
+li:not(:nth-of-type(4)) {
+margin-left: -15px;
+}
+
+li:not(:nth-of-type(4)){
+width: 36px;
+height: 54px;
+}
+
+li:nth-of-type(4) {
+margin-right: 30px;
+margin-left: 15px;
+}
+
+.diamond:nth-of-type(odd){
+background-color: #0099ff;
+}
+
+li:nth-child(3):not(.club) {
+background-color: #ff3300;
+}
+
+ul:last-of-type > li:nth-of-type(3n){
+background-color: #339933;
+}

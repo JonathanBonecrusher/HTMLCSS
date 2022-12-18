@@ -1,0 +1,9 @@
+ul:nth-of-type(even)>li {
+    background-color: #ff3300;
+}
+ul:nth-of-type(3)>li:nth-child(3) {
+    background-color: #339933;
+}
+ul:nth-of-type(1)>li:nth-child(odd) {
+    background-color: #0099ff;
+}
