@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Котейка</title>
+    <link rel="stylesheet" href="/Exam/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-wrapper">
+            <div class="header-logo">
+                <a href="#">
+                    <img src="img/logo.svg" alt="Logo">
+                </a>
+            </div>
+            <nav>
+                <ul class="navig">
+                    <li>
+                        <a href="#" class="header-link">Почему мы?</a>
+                    </li>
+                    <li>
+                        <a href="#" class="header-link">Номера</a>
+                    </li>
+                    <li>
+                        <a href="#" class="header-link">Отзывы</a>
+                    </li>
+                    <li>
+                        <a href="#" class="header-link">Как нас найти</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="booking">
+            <h5>Санкт-Петербург</h5>
+            <h1>Котейка</h1>
+            <h3>Уютная гостинница для котов и кошек</h3>
+            <div class="booking-link">
+                <a href="#">
+                    Забронировать
+                    <img src="img/paw-small-2.svg" alt="Лапа">
+                </a>
+            </div>
+        </section>
+        <section class="benefits">
+            <h2>Почему мы?</h2>
+            <div class="benefits-place">
+                <div class="benefit-card">
+                    <div class="benefit-card-pic">
+                        <img src="img/thermometer.svg" alt="Термометр">
+                    </div>
+                    <h3>Комфортная температура</h3>
+                    <p class="benefit-card-text">Во всех номерах поддерживается комфортная температура в пределах 23 - 25 градусов. В каждом номере можно дополнительно отрегулировать температуру.
+                    </p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-card-pic">
+                        <img src="img/video-monitoring.svg" alt="Термометр">
+                    </div>
+                    <h3>Видеонаблюдение</h3>
+                    <p class="benefit-card-text">Мы предоставляем доступ в нашу систему. Вы сможете следить за своим питомцем со своего смартфона или компьютера.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-card-pic">
+                        <img src="img/taxi.svg" alt="Термометр">
+                    </div>
+                    <h3>Услуги Зоотакси</h3>
+                    <p class="benefit-card-text">Мы приедем за вашим питомцем в любой район Санкт-Петербурга.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-card-pic">
+                        <img src="img/food.svg" alt="Термометр">
+                    </div>
+                    <h3>Сбалансированное питание</h3>
+                    <p class="benefit-card-text">Вы можете привезти свой корм или доверить рацион своего питомца нашим профессионалам.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-card-pic">
+                        <img src="img/cat.svg" alt="Термометр">
+                    </div>
+                    <h3>Ежедневные прогулки</h3>
+                    <p class="benefit-card-text">По вашему желанию мы выгуливаем вашего питомца два раза в день на специализированной закрытой территории.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-card-pic">
+                        <img src="img/hands.svg" alt="Термометр">
+                    </div>
+                    <h3>Лучшие ветеринары</h3>
+                    <p class="benefit-card-text">В гостинице 24 часа дежурит ветеринарный врач, который окажет любую помощь в случае необходимости.</p>
+                </div>
+            </div>
+        </section>
+        <section class="form-input">
+            <h2>Номера</h2>
+            <form action="#" class="form-booking">
+                <img src="img/photo-order-1.jpg" alt="Рыжий котёнок">
+                <div class="room-detales">
+                    <h3>Эконом плюс</h3>
+                    <ul>
+                        <li>Площадь - 0,90 м2</li>
+                        <li>Размеры (ШхГхВ) — 90х100х180 см</li>
+                        <li>Цена за сутки: 200₽</li>
+                    </ul>
+                </div>
+                <div class="input-information">
+                    <h2>Забронировать номер</h2>
+                    <input class="imput-place" type="text" name="name-input" placeholder="Ваше имя" required>
+                    <input class="imput-place" type="text" name="name-input" placeholder="Имя питомца" required>
+                    <input class="imput-place" type="number" name="name-input" placeholder="Телефон" required>
+                    <input class="imput-place" type="email" name="name-input" placeholder="E-mail" required>
+                    <p>Дата заезда</p>
+                    <label for="from-date">с</label>
+                    <input type="date" id="from-date">
+                    <label for="to-date">до</label>
+                    <input type="date" id="to-date">
+                </div>
+            </form>
+        </section>
+        <section class="reviews">
+            <h2>Отзывы</h2>
+            <div class="review-card">
+                <p class="review-card-text">Первый раз пришлось оставить нашего котика в гостинице, очень переживали. Администратор Мария каждый день высылала нам фото нашего питомца, рассказывала, как он себя чувствует. И мы и котик остались очень довольны!</p>
+                <p class="username-review">Валерия Гришаева</p>
+                <p class="review-date">15 ноября, 2019</p>
+            </div>
+            <div class="review-card">
+                <p class="review-card-text">Гостиницу для питомцев нам посоветовали друзья. Они всегда оставляют здесь своего кота, когда уезжают. В “Котейке” очень хорошо заботятся о питомцах, в гостинице очень чисто. Всем рекомендую! Будем обращаться еще.</p>
+                <p class="username-review">Екатерина Минаева</p>
+                <p class="review-date">10 октября, 2019</p>
+            </div>
+            <div class="review-card">
+                <p class="review-card-text">Мой кот — настоящая привереда, угодить ему сложно. У меня были особые требования к уходу за ним, и “Котейка” отлично справились. Я часто наблюдал по видео за питомцем со своего телефона, это очень удобно.</p>
+                <p class="username-review">Павел Нечаев</p>
+                <p class="review-date">2 августа, 2019</p>
+            </div>
+        </section>
+        <section class="where-are-we">
+            <div class="infomation-about">
+                <h2>Как нас найти</h2>
+                <ul class="about">
+                    <li>
+                        <h3>Адрес</h3>
+                        <p>Санкт-Петербург, ул Большая Конюшенная, д 19</p>
+                    </li>
+                    <li>
+                        <h3>Редим работы</h3>
+                        <p>Ежедневно, с 9:00 до 20:00</p>
+                    </li>
+                    <li>
+                        <h3>Телефон</h3>
+                        <p>8 (800) 333-55-99</p>
+                    </li>
+                    <li>
+                        <h3>E-mail</h3>
+                        <p>info@cat-hotel.ru</p>
+                    </li>
+                </ul>
+                <div class="sosials">
+                    <h3>Социальные сети</h3>
+                    <img src="img/facebook.svg" alt="facebook">
+                    <img src="img/instagram.svg" alt="instagram">
+                    <img src="img/vk.svg" alt="vk">
+                </div>
+            </div>
+            <div class="map">
+                <img src="img/map.jpg" alt="Карта">
+                <img class="marker" src="img/marker.svg" alt="маркер">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="nav-wrapper">
+            <div class="header-logo">
+                <a href="#">
+                    <img src="img/logo.svg" alt="Logo">
+                </a>
+            </div>
+            <nav>
+                <ul class="navig">
+                    <li>
+                        <a href="#" class="header-link">Почему мы?</a>
+                    </li>
+                    <li>
+                        <a href="#" class="header-link">Номера</a>
+                    </li>
+                    <li>
+                        <a href="#" class="header-link">Отзывы</a>
+                    </li>
+                    <li>
+                        <a href="#" class="header-link">Как нас найти</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <hr>
+        <div class="rights">
+            <p>© 2019 Все права защищены</p>
+            <p>Политика конфиденциальности</p>
+        </div>
+    </footer>
+</body>
+</html>
