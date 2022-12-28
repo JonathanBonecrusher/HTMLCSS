@@ -39,10 +39,8 @@
             <h1>Котейка</h1>
             <h3>Уютная гостинница для котов и кошек</h3>
             <div class="booking-link">
-                <a href="#">
-                    Забронировать
-                    <img src="img/paw-small-2.svg" alt="Лапа">
-                </a>
+                <input type="submit" value="Забронировать">
+                <img src="img/paw-small-2.svg" alt="Лапа"></label>
             </div>
         </section>
         <section class="benefits">
