@@ -1,9 +1,0 @@
-li:not(.king){
-    background-color: #808080;
-}
-li:not(.diamond){
-    color: #0099ff;
-}
-li:not(:first-child){
-    font-family: "Arial", sans-serif;
-}
