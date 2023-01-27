@@ -1,0 +1,19 @@
+.grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 130px);
+    grid-template-rows: 50px 100px 140px;
+}
+.site-heading{
+    grid-column: 1 / span 4;
+}
+.sidebar{
+    grid-area: 2 / 4 / 4 / 4 ;
+}
+.description{
+    grid-column: 3;
+    grid-row: 3;
+}
+.video{
+    grid-column: 1 / 3;
+}

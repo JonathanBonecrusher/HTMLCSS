@@ -1,0 +1,40 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    display: grid;
+    width: 1200px;
+   
+    grid-template-columns: 2fr 1000px 1fr;
+}
+h1{
+    grid-column: 2;
+}
+.aside{
+    grid-column: 1;
+    grid-row: 2;
+    padding: 40px 10px;
+    font-style: italic;
+}
+p{
+    grid-column: 2;
+    font-size: 17px;
+}
+blockquote{
+    color: rgb(70, 10, 180);
+    grid-column: 1 / span 2;
+    font-weight: bolder;
+    font-size: 23px;
+}
+figure{
+    margin-bottom: 0;
+    grid-area: 5 / 1 / 6 / span 2;
+}
+figcaption{
+    font-size: 12px;
+    font-style: italic;
+    
+}
+img{
+    width: 1130px;
+}

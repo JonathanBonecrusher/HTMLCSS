@@ -1,0 +1,178 @@
+header{
+    background-color: #F8F7FD;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+    color:  #161517;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #161517;
+}
+
+.container{
+    max-width: 1171px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 0 ;
+}
+
+.logo-a{
+    padding-left: 0;
+}
+
+.container > .logo-a{
+    margin: 0;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-list, .sign-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.active{
+   color:  #0F00B6;
+}
+
+a{
+    position: relative;
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.8s, text-shadow 0.8s;
+}
+
+
+a.button{
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 4px;
+}
+
+a.button-outline{
+    border: 2px solid #0F00B6;
+    height: 39px;
+    max-width: 86px;
+    box-sizing: border-box;
+    padding: 8px 24px;
+}
+
+a.button-filled{
+    color: #F8F7FD;
+    background-color: #0F00B6;
+    max-width: 146px;
+    padding: 10px 25px;
+    margin-left: 25px;
+}
+
+.nav-list-item{
+    margin-top: 5px;
+    margin-left: 0;
+}
+
+.nav-list-item > a{
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.nav-list{
+    margin-left: 10px;
+    margin-right: 292px;
+}
+
+.logo{
+    opacity: 1;
+    transition: opacity 0.3s;
+
+}
+
+.logo:hover,
+.logo:focus {
+  opacity: 0.6;
+}
+
+.nav-list-item a:hover
+{
+    text-shadow: 0 0 16px rgba(16,0,182,0.64);
+}
+
+.nav-list-item a:hover:after
+{
+    width: 100%;
+    opacity: 1;
+    box-shadow: 0 0 16px rgba(16,0,182,0.64);
+}
+
+.nav-list-item a:after
+{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.nav-list-item a:after
+{
+    content: '';
+    display: block;
+    position: absolute; 
+    bottom: 15%;
+    height: 20%; 
+    width: 0%; 
+    z-index: 1; 
+    transition: width 0.8s, opacity 0.8s, box-shadow 0.8s; 
+    border-radius: 100px;
+    opacity: 0; 
+    box-shadow: 0 0 16px rgba(42,157,143,0);
+}
+
+a.button:hover {
+	background: rgba(0,0,0,0);
+	color: #0F00B6;
+	box-shadow: inset 0 0 0 3px #0F00B6;
+}
+
+.nav-list > li.about > a{
+    width: 42px;
+}
+
+.nav-list > li.active > a{
+    width: 114px;
+}
+
+.nav-list > li.cost > a{
+    width: 42px;
+}
+
+.nav-list > li.sale > a{
+    width: 48px;
+}
+
+.nav-list > li.reviwes > a{
+    width: 61px;
+}
+
+.nav-list > li.contact > a{
+    width: 74px;
+}

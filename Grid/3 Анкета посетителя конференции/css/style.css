@@ -1,0 +1,97 @@
+body{
+    width: 1170px;
+}
+input, textarea{
+    background-color: #E6E6FA;
+    border: 1px solid  #B5DCE8;
+    border-radius: 7px;
+}
+
+h1{
+    text-align: center;
+}
+
+label{
+    margin-bottom: 0;
+    height: 20px;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 358px repeat(4, 180px);
+    grid-template-rows: repeat(3, 70px) 120px  20px 40px;
+    gap: 19px;
+    font-size: 18px;
+
+}
+
+input#photo{
+    grid-row: 1 / 7;
+}
+input#photo::-webkit-input-placeholder{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+input:not(#photo){
+    height: 40px;
+}
+
+.name{
+    grid-column: 2 / 6;
+}
+input#name-field-id{
+    width: 765px;
+}
+
+.job{
+    grid-column: 2 / 4;
+}
+input#job-field-id{
+    width: 370px;
+}
+
+.city{
+    grid-column: 4 / 6;
+}
+input#city-field-id{
+    width: 370px;
+}
+
+.twitter{
+    grid-column: 2 / 4;
+}
+input#twitter-field-id{
+    width: 370px;
+}
+
+.instagram{
+    grid-column:  4 / 6;
+}
+input#instagram-field-id{
+    width: 370px;
+}
+
+.about{
+    grid-column: 2 / 6;
+}
+textarea#about-field-id{
+    width: 765px;
+    height: 100px;
+}
+
+
+.post{
+    grid-area:  5 / 2 / 6 / 6;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.checkbox-1 > label,
+.checkbox-2 > label,
+.checkbox-3 > label,
+.checkbox-4 > label
+{
+    vertical-align: 10px;
+    font-size: 18px;
+}
